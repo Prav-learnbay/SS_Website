@@ -15,7 +15,7 @@ const testimonials = [
     status: "Matched for 2 years, now married"
   },
   {
-    image: "hike",
+    image: "hiking",
     personality1: "INTJ",
     personality2: "ESFP",
     text: "\"The personality insights from HeartSync helped us understand each other from day one. Our communication has been so much better because we recognize how we each process information differently.\"",
@@ -72,10 +72,10 @@ export default function Testimonials() {
               <div className="h-56 overflow-hidden bg-gray-200">
                 <img 
                   src={testimonial.image === "wedding" ? "/images/wedding-couple.svg" : 
-                      testimonial.image === "hike" ? "/images/hiking-couple.svg" : 
+                      testimonial.image === "hiking" ? "/images/hiking-couple.svg" : 
                       "/images/cooking-couple.svg"}
                   alt={testimonial.image === "wedding" ? "Happy couple at their wedding" : 
-                      testimonial.image === "hike" ? "Couple on a hike" : 
+                      testimonial.image === "hiking" ? "Couple on a hike" : 
                       "Couple cooking together"}
                   className="w-full h-full object-cover"
                 />
