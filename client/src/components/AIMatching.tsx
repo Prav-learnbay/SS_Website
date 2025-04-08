@@ -69,7 +69,7 @@ export default function AIMatching() {
               transition={{ duration: 0.5, delay: 0.1 }}
             >
               <img 
-                src="/images/ai-tech.svg" 
+                src="/images/realistic-ai-matching.svg" 
                 alt="AI-powered matching technology visualization" 
                 className="w-full aspect-4/3 object-cover bg-gray-100"
               />

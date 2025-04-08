@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" />
+  
+  <!-- Central processor design -->
+  <rect x="300" y="200" width="200" height="200" rx="20" fill="#4ECDC4" opacity="0.1" />
+  <rect x="320" y="220" width="160" height="160" rx="10" fill="#4ECDC4" opacity="0.2" />
+  <circle cx="400" cy="300" r="60" fill="#4ECDC4" opacity="0.3" />
+  <circle cx="400" cy="300" r="40" fill="#4ECDC4" opacity="0.4" />
+  <circle cx="400" cy="300" r="20" fill="#4ECDC4" />
+  
+  <!-- Connection lines -->
+  <line x1="400" y1="200" x2="400" y2="120" stroke="#6A4C93" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="300" y1="300" x2="220" y2="300" stroke="#6A4C93" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="500" y1="300" x2="580" y2="300" stroke="#6A4C93" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="400" x2="400" y2="480" stroke="#6A4C93" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Brain icon -->
+  <g transform="translate(350, 70)">
+    <rect x="0" y="0" width="100" height="100" rx="50" fill="#6A4C93" opacity="0.1" />
+    <path d="M50 10 Q25 10 15 30 Q5 50 15 70 Q25 90 50 90 Q75 90 85 70 Q95 50 85 30 Q75 10 50 10Z" fill="none" stroke="#6A4C93" stroke-width="2" />
+    <path d="M30 30 Q40 20 50 30 Q60 40 50 50 Q40 60 30 50 Q20 40 30 30Z" fill="none" stroke="#6A4C93" stroke-width="2" />
+    <path d="M70 30 Q60 20 50 30 Q40 40 50 50 Q60 60 70 50 Q80 40 70 30Z" fill="none" stroke="#6A4C93" stroke-width="2" />
+    <text x="50" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#6A4C93">Personality Data</text>
+  </g>
+  
+  <!-- Social icon -->
+  <g transform="translate(170, 250)">
+    <rect x="0" y="0" width="100" height="100" rx="50" fill="#FF6B6B" opacity="0.1" />
+    <circle cx="30" cy="40" r="15" fill="none" stroke="#FF6B6B" stroke-width="2" />
+    <circle cx="70" cy="40" r="15" fill="none" stroke="#FF6B6B" stroke-width="2" />
+    <circle cx="50" cy="70" r="15" fill="none" stroke="#FF6B6B" stroke-width="2" />
+    <line x1="30" y1="40" x2="70" y2="40" stroke="#FF6B6B" stroke-width="2" />
+    <line x1="30" y1="40" x2="50" y2="70" stroke="#FF6B6B" stroke-width="2" />
+    <line x1="70" y1="40" x2="50" y2="70" stroke="#FF6B6B" stroke-width="2" />
+    <text x="50" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#FF6B6B">Relationship Data</text>
+  </g>
+  
+  <!-- Chart icon -->
+  <g transform="translate(530, 250)">
+    <rect x="0" y="0" width="100" height="100" rx="10" fill="#4ECDC4" opacity="0.1" />
+    <line x1="20" y1="80" x2="80" y2="80" stroke="#4ECDC4" stroke-width="2" />
+    <line x1="20" y1="20" x2="20" y2="80" stroke="#4ECDC4" stroke-width="2" />
+    <path d="M20 60 L35 50 L50 65 L65 35 L80 25" stroke="#4ECDC4" stroke-width="2" fill="none" />
+    <circle cx="35" cy="50" r="3" fill="#4ECDC4" />
+    <circle cx="50" cy="65" r="3" fill="#4ECDC4" />
+    <circle cx="65" cy="35" r="3" fill="#4ECDC4" />
+    <circle cx="80" cy="25" r="3" fill="#4ECDC4" />
+    <text x="50" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4ECDC4">Compatibility Stats</text>
+  </g>
+  
+  <!-- Match icon -->
+  <g transform="translate(350, 430)">
+    <rect x="0" y="0" width="100" height="100" rx="50" fill="#FFD166" opacity="0.1" />
+    <path d="M35 35 Q25 45 35 55 Q45 65 50 50 Q55 65 65 55 Q75 45 65 35 Q55 25 50 40 Q45 25 35 35Z" fill="none" stroke="#FFD166" stroke-width="2" />
+    <circle cx="30" cy="40" r="10" fill="none" stroke="#FFD166" stroke-width="2" />
+    <circle cx="70" cy="40" r="10" fill="none" stroke="#FFD166" stroke-width="2" />
+    <text x="50" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#FFD166">Match Results</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#334155">AI-Powered Matching Algorithm</text>
+  
+  <!-- Supporting text -->
+  <text x="400" y="530" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#334155">Advanced Machine Learning for Perfect Compatibility</text>
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748b">Our algorithm analyzes thousands of successful relationships to find your ideal match</text>
+  
+  <!-- Data flow animation points -->
+  <circle cx="400" cy="150" r="4" fill="#6A4C93" opacity="0.7" />
+  <circle cx="400" cy="170" r="4" fill="#6A4C93" opacity="0.6" />
+  <circle cx="400" cy="190" r="4" fill="#6A4C93" opacity="0.5" />
+  
+  <circle cx="250" cy="300" r="4" fill="#FF6B6B" opacity="0.7" />
+  <circle cx="270" cy="300" r="4" fill="#FF6B6B" opacity="0.6" />
+  <circle cx="290" cy="300" r="4" fill="#FF6B6B" opacity="0.5" />
+  
+  <circle cx="550" cy="300" r="4" fill="#4ECDC4" opacity="0.7" />
+  <circle cx="530" cy="300" r="4" fill="#4ECDC4" opacity="0.6" />
+  <circle cx="510" cy="300" r="4" fill="#4ECDC4" opacity="0.5" />
+  
+  <circle cx="400" cy="450" r="4" fill="#FFD166" opacity="0.7" />
+  <circle cx="400" cy="430" r="4" fill="#FFD166" opacity="0.6" />
+  <circle cx="400" cy="410" r="4" fill="#FFD166" opacity="0.5" />
+</svg>

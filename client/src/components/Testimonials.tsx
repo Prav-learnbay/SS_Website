@@ -70,27 +70,13 @@ export default function Testimonials() {
               transition={{ duration: 0.5, delay: 0.1 * index }}
             >
               <div className="h-56 overflow-hidden bg-gray-200">
-                <svg 
-                  className="w-full h-full"
-                  viewBox="0 0 800 500"
-                  preserveAspectRatio="xMidYMid slice"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="800" height="500" fill="#e5e7eb" />
-                  <text 
-                    x="400" 
-                    y="250" 
-                    fontFamily="system-ui, sans-serif" 
-                    fontSize="30" 
-                    fill="#9ca3af" 
-                    textAnchor="middle"
-                    dominantBaseline="middle"
-                  >
-                    {testimonial.image === "wedding" ? "Happy couple at their wedding" : 
-                     testimonial.image === "hike" ? "Couple on a hike" : 
-                     "Couple cooking together"}
-                  </text>
-                </svg>
+                <img 
+                  src="/images/couple-testimonial.svg"
+                  alt={testimonial.image === "wedding" ? "Happy couple at their wedding" : 
+                      testimonial.image === "hike" ? "Couple on a hike" : 
+                      "Couple cooking together"}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
@@ -112,14 +98,12 @@ export default function Testimonials() {
                 </p>
                 <div className="flex items-center">
                   <div className="flex -space-x-2 mr-4">
-                    <svg className="w-10 h-10 rounded-full border-2 border-white bg-gray-400" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="50" cy="40" r="25" fill="#ccc" />
-                      <circle cx="50" cy="100" r="35" fill="#ccc" />
-                    </svg>
-                    <svg className="w-10 h-10 rounded-full border-2 border-white bg-gray-400" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="50" cy="40" r="25" fill="#ccc" />
-                      <circle cx="50" cy="100" r="35" fill="#ccc" />
-                    </svg>
+                    <div className="w-10 h-10 rounded-full border-2 border-white bg-gradient-to-br from-primary/50 to-[#6A4C93]/50 flex items-center justify-center text-white font-bold text-xs">
+                      {testimonial.names.split('&')[0].trim()[0]}
+                    </div>
+                    <div className="w-10 h-10 rounded-full border-2 border-white bg-gradient-to-br from-[#6A4C93]/50 to-primary/50 flex items-center justify-center text-white font-bold text-xs">
+                      {testimonial.names.split('&')[1].trim()[0]}
+                    </div>
                   </div>
                   <div>
                     <div className="font-bold">{testimonial.names}</div>
