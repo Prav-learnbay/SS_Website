@@ -6,6 +6,11 @@ import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Health check endpoint
+  app.get("/api/health", (_req, res) => {
+    return res.status(200).json({ status: "ok", message: "Server is healthy" });
+  });
+  
   // API routes
   app.post("/api/leads", async (req, res) => {
     try {
