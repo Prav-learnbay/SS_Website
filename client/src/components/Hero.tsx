@@ -64,25 +64,11 @@ export default function Hero() {
           variants={slideUp}
         >
           <div className="rounded-2xl shadow-2xl overflow-hidden">
-            <svg 
-              className="w-full aspect-4/3 bg-gray-200"
-              viewBox="0 0 800 600"
-              preserveAspectRatio="xMidYMid slice"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect width="800" height="600" fill="#e5e7eb" />
-              <text 
-                x="400" 
-                y="300" 
-                font-family="system-ui, sans-serif" 
-                font-size="30" 
-                fill="#9ca3af" 
-                text-anchor="middle"
-                dominant-baseline="middle"
-              >
-                Happy diverse couple image
-              </text>
-            </svg>
+            <img 
+              src="/images/happy-couple.svg" 
+              alt="Happy diverse couple with MBTI types" 
+              className="w-full aspect-4/3 object-cover bg-gray-100"
+            />
           </div>
           <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg max-w-[200px]">
             <div className="flex items-center mb-2">

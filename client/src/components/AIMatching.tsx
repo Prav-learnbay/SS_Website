@@ -68,25 +68,11 @@ export default function AIMatching() {
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              <svg 
-                className="w-full aspect-4/3 bg-gray-200"
-                viewBox="0 0 800 600"
-                preserveAspectRatio="xMidYMid slice"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect width="800" height="600" fill="#e5e7eb" />
-                <text 
-                  x="400" 
-                  y="300" 
-                  fontFamily="system-ui, sans-serif" 
-                  fontSize="30" 
-                  fill="#9ca3af" 
-                  textAnchor="middle"
-                  dominantBaseline="middle"
-                >
-                  AI technology concept visualization
-                </text>
-              </svg>
+              <img 
+                src="/images/ai-tech.svg" 
+                alt="AI-powered matching technology visualization" 
+                className="w-full aspect-4/3 object-cover bg-gray-100"
+              />
             </motion.div>
           </div>
           

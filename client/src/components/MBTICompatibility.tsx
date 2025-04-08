@@ -94,25 +94,11 @@ export default function MBTICompatibility() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className="order-2 md:order-1">
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-              <svg 
-                className="w-full aspect-4/3 bg-gray-200"
-                viewBox="0 0 800 600"
-                preserveAspectRatio="xMidYMid slice"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect width="800" height="600" fill="#e5e7eb" />
-                <text 
-                  x="400" 
-                  y="300" 
-                  fontFamily="system-ui, sans-serif" 
-                  fontSize="30" 
-                  fill="#9ca3af" 
-                  textAnchor="middle"
-                  dominantBaseline="middle"
-                >
-                  MBTI personality chart visual
-                </text>
-              </svg>
+              <img 
+                src="/images/mbti-chart.svg" 
+                alt="MBTI personality types chart" 
+                className="w-full aspect-4/3 object-cover bg-gray-100"
+              />
             </div>
           </div>
           
