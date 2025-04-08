@@ -73,7 +73,7 @@ export default function Testimonials() {
                 <img 
                   src={testimonial.image === "wedding" ? "/images/Wed.jpeg" : 
                       testimonial.image === "hiking" ? "/images/hike_couple.jpeg" : 
-                      "/images/cooking-couple.svg"}
+                      "/images/cooking.jpeg"}
                   alt={testimonial.image === "wedding" ? "Happy couple at their wedding" : 
                       testimonial.image === "hiking" ? "Couple on a hike" : 
                       "Couple cooking together"}
