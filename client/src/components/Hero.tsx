@@ -65,7 +65,7 @@ export default function Hero() {
         >
           <div className="rounded-2xl shadow-2xl overflow-hidden">
             <img 
-              src="/images/indian-wedding-couple.svg" 
+              src="/images/indian_marriage.jpeg" 
               alt="Beautiful Indian wedding couple with MBTI compatibility" 
               className="w-full aspect-4/3 object-cover bg-gray-100"
             />
