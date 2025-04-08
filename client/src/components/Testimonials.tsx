@@ -71,7 +71,7 @@ export default function Testimonials() {
             >
               <div className="h-56 overflow-hidden bg-gray-200">
                 <img 
-                  src={testimonial.image === "wedding" ? "/images/wedding-couple.svg" : 
+                  src={testimonial.image === "wedding" ? "/images/HappyCouple_wed.jpeg" : 
                       testimonial.image === "hiking" ? "/images/hiking-couple.svg" : 
                       "/images/cooking-couple.svg"}
                   alt={testimonial.image === "wedding" ? "Happy couple at their wedding" : 
