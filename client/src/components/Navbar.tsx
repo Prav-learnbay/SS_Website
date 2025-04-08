@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <Link href="/" className="text-2xl font-serif font-bold">
-            <span className="text-primary">Heart</span>
+            <span className="text-primary">Soul</span>
             <span className="text-[#6A4C93]">Sync</span>
             <span className="text-[#4ECDC4] text-sm ml-1">AI</span>
           </Link>
