@@ -63,7 +63,7 @@ export default function AIMatching() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <motion.div 
-              className="rounded-2xl overflow-hidden shadow-xl"
+              className="rounded-2xl overflow-hidden shadow-xl relative"
               initial={{ opacity: 0, x: -20 }}
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
               transition={{ duration: 0.5, delay: 0.1 }}
@@ -73,6 +73,9 @@ export default function AIMatching() {
                 alt="AI-powered matching technology visualization" 
                 className="w-full aspect-4/3 object-cover bg-gray-100"
               />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/50 flex flex-col justify-end p-4">
+                <h3 className="text-white text-xl font-bold drop-shadow-md">AI agents doing the match making</h3>
+              </div>
             </motion.div>
           </div>
           
