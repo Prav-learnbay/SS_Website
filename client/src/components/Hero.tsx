@@ -22,7 +22,7 @@ export default function Hero() {
             <span className="text-[#4ECDC4]">AI</span> & Personality
           </h1>
           <p className="text-lg md:text-xl mb-8 text-neutral-800 leading-relaxed">
-            HeartSync uses advanced AI and MBTI personality compatibility to help you find meaningful connections that last a lifetime.
+            SoulSync AI uses advanced AI and MBTI personality compatibility to help you find meaningful connections that last a lifetime.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="#signup">

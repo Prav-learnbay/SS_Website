@@ -37,7 +37,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <Link href="/" className="text-2xl font-serif font-bold mb-4 block">
-              <span className="text-primary">Heart</span>
+              <span className="text-primary">Soul</span>
               <span className="text-white">Sync</span>
               <span className="text-[#4ECDC4] text-sm ml-1">AI</span>
             </Link>
@@ -102,7 +102,7 @@ export default function Footer() {
         
         <div className="border-t border-neutral-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-neutral-300 text-sm">
-            &copy; {new Date().getFullYear()} HeartSync AI. All rights reserved.
+            &copy; {new Date().getFullYear()} SoulSync AI. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <a href="#" className="text-neutral-300 hover:text-primary text-sm transition">Terms</a>

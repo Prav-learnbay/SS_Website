@@ -134,7 +134,7 @@ export default function SignupForm() {
               <div className="flex items-center">
                 <div className="text-2xl mr-3">⭐</div>
                 <p className="italic text-neutral-800">
-                  "HeartSync completely changed how I approach relationships. I found someone who truly understands me."
+                  "SoulSync AI completely changed how I approach relationships. I found someone who truly understands me."
                 </p>
               </div>
               <div className="mt-2 pl-9 text-sm text-neutral-800">

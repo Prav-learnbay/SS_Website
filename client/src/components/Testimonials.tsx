@@ -10,7 +10,7 @@ const testimonials = [
     image: "wedding",
     personality1: "INFJ",
     personality2: "ENFP",
-    text: "\"We never would have connected without HeartSync. Our personalities complement each other perfectly—I'm thoughtful and reflective, while he brings spontaneity and energy to our relationship.\"",
+    text: "\"We never would have connected without SoulSync AI. Our personalities complement each other perfectly—I'm thoughtful and reflective, while he brings spontaneity and energy to our relationship.\"",
     names: "Emily & Michael",
     status: "Matched for 2 years, now married"
   },
@@ -18,7 +18,7 @@ const testimonials = [
     image: "hiking",
     personality1: "INTJ",
     personality2: "ESFP",
-    text: "\"The personality insights from HeartSync helped us understand each other from day one. Our communication has been so much better because we recognize how we each process information differently.\"",
+    text: "\"The personality insights from SoulSync AI helped us understand each other from day one. Our communication has been so much better because we recognize how we each process information differently.\"",
     names: "Aisha & James",
     status: "Matched for 1 year, engaged"
   },
@@ -26,7 +26,7 @@ const testimonials = [
     image: "cooking",
     personality1: "ENFJ",
     personality2: "ISTP",
-    text: "\"I was skeptical about AI matchmaking, but the compatibility insights were spot on. We balance each other perfectly—I bring the big ideas, and he makes them happen. We're so grateful for HeartSync!\"",
+    text: "\"I was skeptical about AI matchmaking, but the compatibility insights were spot on. We balance each other perfectly—I bring the big ideas, and he makes them happen. We're so grateful for SoulSync AI!\"",
     names: "Sofia & David",
     status: "Matched for 8 months, living together"
   }
